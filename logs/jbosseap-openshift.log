@@ -1,0 +1,86 @@
+=========================================================================
+  JBoss Bootstrap Environment
+  JBOSS_HOME: /var/lib/openshift/56ccca3c89f5cfa684000133/jbosseap
+  JAVA: /etc/alternatives/java_sdk_1.7.0/bin/java
+  JAVA_OPTS:  -server -XX:+TieredCompilation -Xms40m -Xmx256m -XX:MaxPermSize=102m -XX:+AggressiveOpts -XX:MinHeapFreeRatio=20 -XX:MaxHeapFreeRatio=40 -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dorg.apache.tomcat.util.LOW_MEMORY=true -DOPENSHIFT_APP_UUID=56ccca3c89f5cfa684000133 -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dfile.encoding=UTF-8 -Djboss.node.name=eap645ga-ams10961.rhcloud.com -Djgroups.bind_addr=127.11.75.1 -Dorg.apache.coyote.http11.Http11Protocol.COMPRESSION=on
+=========================================================================
+2016/02/23 16:36:41,254 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.7.Final-redhat-1
+2016/02/23 16:36:42,064 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+2016/02/23 16:36:42,262 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: JBoss EAP 6.4.5.GA (AS 7.5.5.Final-redhat-3) starting
+2016/02/23 16:36:46,009 WARN  [org.jboss.as.messaging] (Controller Boot Thread) JBAS011608: Element CLUSTERED is deprecated and will not be taken into account
+2016/02/23 16:36:47,494 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 23) JBAS014627: Attribute 'clustered' in the resource at address '/subsystem=messaging/hornetq-server=default' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2016/02/23 16:36:47,598 WARN  [org.jboss.messaging] (ServerService Thread Pool -- 23) JBAS011618: There is no resource matching the expiry-address jms.queue.ExpiryQueue for the address-settings #, expired messages from destinations matching this address-setting will be lost!
+2016/02/23 16:36:47,598 WARN  [org.jboss.messaging] (ServerService Thread Pool -- 23) JBAS011619: There is no resource matching the dead-letter-address jms.queue.DLQ for the address-settings #, undelivered messages from destinations matching this address-setting will be lost!
+2016/02/23 16:36:47,699 WARN  [org.jboss.as.server] (Controller Boot Thread) JBAS015883: No security realm defined for native management service; all access will be unrestricted.
+2016/02/23 16:36:47,720 INFO  [org.xnio] (MSC service thread 1-5) XNIO Version 3.0.15.GA-redhat-1
+2016/02/23 16:36:47,792 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.0.15.GA-redhat-1
+2016/02/23 16:36:47,809 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016/02/23 16:36:47,809 WARN  [org.jboss.as.server] (Controller Boot Thread) JBAS015884: No security realm defined for http management service; all access will be unrestricted.
+2016/02/23 16:36:47,907 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 3.3.6.Final-redhat-1
+2016/02/23 16:36:48,234 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 36) JBAS016200: Activating ConfigAdmin Subsystem
+2016/02/23 16:36:48,303 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) JBAS010280: Activating Infinispan subsystem.
+2016/02/23 16:36:48,498 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 60) JBAS013371: Activating Security Subsystem
+2016/02/23 16:36:48,691 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 47) JBAS010260: Activating JGroups subsystem.
+2016/02/23 16:36:48,387 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 50) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+2016/02/23 16:36:48,493 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016/02/23 16:36:48,795 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) JBAS015537: Activating WebServices Extension
+2016/02/23 16:36:48,790 INFO  [org.jboss.as.security] (MSC service thread 1-5) JBAS013370: Current PicketBox version=4.1.2.Final-redhat-1
+2016/02/23 16:36:48,893 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 55) JBAS011906: Activating OSGi Subsystem
+2016/02/23 16:36:50,190 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 42) JBAS016300: Activating JacORB Subsystem
+2016/02/23 16:36:50,492 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) JBAS011800: Activating Naming Subsystem
+2016/02/23 16:36:50,599 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on 127.11.75.1:9999
+2016/02/23 16:36:50,896 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 127.11.75.1:4447
+2016/02/23 16:36:51,492 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.34.Final-redhat-1)
+2016/02/23 16:36:52,490 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016/02/23 16:36:52,698 INFO  [org.jboss.jaxr] (MSC service thread 1-3) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+2016/02/23 16:36:52,597 INFO  [org.jboss.as.naming] (MSC service thread 1-7) JBAS011802: Starting Naming Service
+2016/02/23 16:36:52,691 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016/02/23 16:36:53,193 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016/02/23 16:36:53,698 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 8.4)
+2016/02/23 16:36:55,800 WARN  [org.jboss.as.messaging] (MSC service thread 1-5) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+2016/02/23 16:36:57,998 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003001: Coyote HTTP/1.1 initializing on : http-127.11.75.1/127.11.75.1:8080
+2016/02/23 16:36:58,293 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003000: Coyote HTTP/1.1 starting on: http-127.11.75.1/127.11.75.1:8080
+2016/02/23 16:36:59,295 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/var/lib/openshift/56ccca3c89f5cfa684000133/jbosseap/standalone/data/messagingjournal,bindingsDirectory=/var/lib/openshift/56ccca3c89f5cfa684000133/jbosseap/standalone/data/messagingbindings,largeMessagesDirectory=/var/lib/openshift/56ccca3c89f5cfa684000133/jbosseap/standalone/data/messaginglargemessages,pagingDirectory=/var/lib/openshift/56ccca3c89f5cfa684000133/jbosseap/standalone/data/messagingpaging)
+2016/02/23 16:36:59,392 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221006: Waiting to obtain live lock
+2016/02/23 16:37:00,495 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221013: Using NIO Journal
+2016/02/23 16:37:01,393 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 41) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016/02/23 16:37:01,498 INFO  [org.jboss.as.jacorb] (MSC service thread 1-4) JBAS016330: CORBA ORB Service started
+2016/02/23 16:37:02,091 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 41) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2016/02/23 16:37:03,706 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory /var/lib/openshift/56ccca3c89f5cfa684000133/jbosseap/standalone/deployments
+2016/02/23 16:37:03,841 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2016/02/23 16:37:04,905 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221034: Waiting to obtain live lock
+2016/02/23 16:37:04,905 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221035: Live Server Obtained live lock
+2016/02/23 16:37:07,897 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016/02/23 16:37:09,391 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.5.Final-redhat-3
+2016/02/23 16:37:10,592 INFO  [org.jboss.as.jacorb] (MSC service thread 1-4) JBAS016328: CORBA Naming Service started
+2016/02/23 16:37:13,000 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 127.11.75.1:5445 for CORE protocol
+2016/02/23 16:37:13,094 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 127.11.75.1:5455 for CORE protocol
+2016/02/23 16:37:13,192 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221007: Server is now live
+2016/02/23 16:37:13,193 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221001: HornetQ Server version 2.3.25.SP6 (2.3.25.SP6, 123) [c9b881e2-da71-11e5-ae26-e561ff8ca132] 
+2016/02/23 16:37:13,993 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 67) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2016/02/23 16:37:14,590 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 69) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2016/02/23 16:37:15,592 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010406: Registered connection factory java:/JmsXA
+2016/02/23 16:37:17,293 INFO  [org.hornetq.ra] (MSC service thread 1-1) HornetQ resource adaptor started
+2016/02/23 16:37:17,393 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2016/02/23 16:37:17,490 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2016/02/23 16:37:19,202 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment ROOT.war
+2016/02/23 16:37:21,394 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016005: Starting Services for CDI deployment: ROOT.war
+2016/02/23 16:37:22,893 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900 1.1.31 (redhat)
+2016/02/23 16:37:23,693 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016008: Starting weld service for deployment ROOT.war
+2016/02/23 16:37:25,601 INFO  [org.jboss.web] (ServerService Thread Pool -- 69) JBAS018210: Register web context: 
+2016/02/23 16:37:27,691 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 38) JBAS015859: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2016/02/23 16:37:27,799 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.11.75.1:9990/management
+2016/02/23 16:37:27,892 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.11.75.1:9990
+2016/02/23 16:37:27,892 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.5.GA (AS 7.5.5.Final-redhat-3) started in 47463ms - Started 270 of 387 services (145 services are lazy, passive or on-demand)
+2016/02/23 16:38:33,892 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[default-host]] (http-127.11.75.1/127.11.75.1:8080-1) JBWEB000238: Exception sending request destroyed lifecycle event to listener instance of class org.jboss.weld.servlet.WeldListener: java.lang.IllegalStateException: JBWEB000057: The request object has been recycled and is no longer associated with this facade
+    at org.apache.catalina.connector.RequestFacade.removeAttribute(RequestFacade.java:494) [jbossweb.jar:7.5.12.Final-redhat-1]
+    at org.jboss.weld.servlet.WeldListener.requestDestroyed(WeldListener.java:133)
+    at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180) [jbossweb.jar:7.5.12.Final-redhat-1]
+    at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:97) [jbossweb.jar:7.5.12.Final-redhat-1]
+    at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:102) [jbossweb.jar:7.5.12.Final-redhat-1]
+    at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:621) [jbossweb.jar:7.5.12.Final-redhat-1]
+    at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [jbossweb.jar:7.5.12.Final-redhat-1]
+    at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:854) [jbossweb.jar:7.5.12.Final-redhat-1]
+    at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:653) [jbossweb.jar:7.5.12.Final-redhat-1]
+    at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:926) [jbossweb.jar:7.5.12.Final-redhat-1]
+    at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_95]
