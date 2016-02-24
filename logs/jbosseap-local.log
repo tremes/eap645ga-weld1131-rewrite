@@ -1,0 +1,65 @@
+04:45:58,352 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+04:45:58,661 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+04:45:58,757 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+04:45:59,998 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found eap645ga.war in deployment directory. To trigger deployment create a file called eap645ga.war.dodeploy
+04:46:00,024 INFO  [org.xnio] (MSC service thread 1-4) XNIO Version 3.0.13.GA-redhat-1
+04:46:00,030 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+04:46:00,030 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+04:46:00,046 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 3.3.4.Final-redhat-1
+04:46:00,076 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+04:46:00,103 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+04:46:00,114 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Activating Naming Subsystem
+04:46:00,117 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.31.Final-redhat-1)
+04:46:00,154 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Activating Security Subsystem
+04:46:00,155 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+04:46:00,176 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+04:46:00,198 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013370: Current PicketBox version=4.1.1.Final-redhat-1
+04:46:00,231 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+04:46:00,285 INFO  [org.jboss.as.naming] (MSC service thread 1-6) JBAS011802: Starting Naming Service
+04:46:00,286 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+04:46:00,818 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+04:46:00,918 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+04:46:01,072 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) JBAS017100: Listening on 127.0.0.1:4447
+04:46:01,072 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 127.0.0.1:9999
+04:46:01,085 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) JBAS015012: Started FileSystemDeploymentService for directory /home/ams/eap640/standalone/deployments
+04:46:01,090 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "eap645ga.war" (runtime-name: "eap645ga.war")
+04:46:01,329 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8443
+04:46:01,330 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+04:46:01,343 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+04:46:01,345 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8443
+04:46:01,561 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment eap645ga.war
+04:46:01,722 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016005: Starting Services for CDI deployment: eap645ga.war
+04:46:01,830 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900 1.1.28 (redhat)
+04:46:01,890 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016008: Starting weld service for deployment eap645ga.war
+04:46:02,259 INFO  [org.jboss.web] (ServerService Thread Pool -- 50) JBAS018210: Register web context: /eap645ga
+04:46:02,370 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS015859: Deployed "eap645ga.war" (runtime-name : "eap645ga.war")
+04:46:02,408 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+04:46:02,408 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+04:46:02,409 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) started in 4575ms - Started 228 of 264 services (60 services are lazy, passive or on-demand)
+04:46:47,494 INFO  [org.jboss.web] (ServerService Thread Pool -- 54) JBAS018224: Unregister web context: /eap645ga
+04:46:47,515 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016009: Stopping weld service for deployment eap645ga.war
+04:46:47,526 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment eap645ga.war (runtime-name: eap645ga.war) in 35ms
+04:46:47,529 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "eap645ga.war" (runtime-name: "eap645ga.war")
+04:46:47,552 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment eap645ga.war
+04:46:47,574 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016005: Starting Services for CDI deployment: eap645ga.war
+04:46:47,579 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016008: Starting weld service for deployment eap645ga.war
+04:46:47,642 INFO  [org.jboss.web] (ServerService Thread Pool -- 56) JBAS018210: Register web context: /eap645ga
+04:46:47,645 ERROR [org.apache.catalina.core] (ServerService Thread Pool -- 56) JBWEB001097: Error starting context /eap645ga: 
+java.lang.IllegalArgumentException: https://%{HTTP_HOST}:8443%{REQUEST_URI}
+    at org.jboss.web.rewrite.Substitution.parse(Substitution.java:195) [jbossweb-7.5.7.Final-redhat-1.jar:7.5.7.Final-redhat-1]
+    at org.jboss.web.rewrite.RewriteRule.parse(RewriteRule.java:45) [jbossweb-7.5.7.Final-redhat-1.jar:7.5.7.Final-redhat-1]
+    at org.jboss.web.rewrite.RewriteValve.parse(RewriteValve.java:251) [jbossweb-7.5.7.Final-redhat-1.jar:7.5.7.Final-redhat-1]
+    at org.jboss.web.rewrite.RewriteValve.start(RewriteValve.java:165) [jbossweb-7.5.7.Final-redhat-1.jar:7.5.7.Final-redhat-1]
+    at org.apache.catalina.core.StandardPipeline.start(StandardPipeline.java:223) [jbossweb-7.5.7.Final-redhat-1.jar:7.5.7.Final-redhat-1]
+    at org.apache.catalina.core.StandardContext.start(StandardContext.java:3716) [jbossweb-7.5.7.Final-redhat-1.jar:7.5.7.Final-redhat-1]
+    at org.jboss.as.web.deployment.WebDeploymentService.doStart(WebDeploymentService.java:163) [jboss-as-web-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+    at org.jboss.as.web.deployment.WebDeploymentService.access$000(WebDeploymentService.java:61) [jboss-as-web-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+    at org.jboss.as.web.deployment.WebDeploymentService$1.run(WebDeploymentService.java:96) [jboss-as-web-7.5.0.Final-redhat-21.jar:7.5.0.Final-redhat-21]
+    at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [rt.jar:1.7.0_95]
+    at java.util.concurrent.FutureTask.run(FutureTask.java:262) [rt.jar:1.7.0_95]
+    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_95]
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_95]
+    at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_95]
+    at org.jboss.threads.JBossThread.run(JBossThread.java:122)
+
+04:46:47,651 ERROR [org.apache.catalina.core] (ServerService Thread Pool -- 56) JBWEB001103: Error detected during context /eap645ga start, will stop it
